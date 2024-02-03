@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Overpass', sans-serif;
+}
+
+ul button {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background-color:#2b3644;
+  color: #959eac;
+}
+ul button:hover {
+    background-color: #959eac;
+    color: #121417;
+}
+
+ul button:focus {
+    background-color:#959eac;
+    color: #121417;
+}
